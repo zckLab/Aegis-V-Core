@@ -1,8 +1,6 @@
 package internal
 
-import (
-	"time"
-)
+import "time"
 
 type HardwareEngine struct {
 	TaskQueue chan byte
@@ -17,15 +15,12 @@ func NewEngine() *HardwareEngine {
 	go e.worker()
 	return e
 }
-
 func (e *HardwareEngine) worker() {
-	for challenge := range e.TaskQueue {
-		time.Sleep(30 * time.Millisecond)
-		response := challenge ^ 0x7A
-		e.Results <- response
+	for c := range e.TaskQueue {
+		time.Sleep(10 * time.Millisecond)
+		e.Results <- c ^ 0x7A
 	}
 }
-
 func (e *HardwareEngine) Dispatch(b byte) byte {
 	e.TaskQueue <- b
 	return <-e.Results
