@@ -90,7 +90,7 @@ The engine manages the "Smart Endpoint" logic and security proxying using the Gi
    ```bash
    go run main.go
    ```
-   _The server will start at http://localhost:8080._
+   _The server will start at `http://localhost:8080._`
 
 ### 3. Frontend SOC Setup (UI Layer)
 The dashboard provides real-time monitoring and command execution.
