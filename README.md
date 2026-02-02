@@ -3,6 +3,10 @@
 [![Backend-Go](https://img.shields.io/badge/Backend-Go--Gin-00ADD8?style=for-the-badge&logo=go)](https://gin-gonic.com/)
 [![Frontend-Python](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://streamlit.io/)
 [![Hardware-Assembly](https://img.shields.io/badge/Hardware-AVR--Assembly-white?style=for-the-badge&logo=microchip)](https://github.com/)
+![Python](https://img.shields.io/badge/Python-3.11-yellow?logo=python&logoColor=white)
+![Embedded](https://img.shields.io/badge/Embedded-Hardware-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 
 **AEGIS-V** is a high-integrity security gateway that implements **Clean Architecture** to bridge high-level cloud dashboards with low-level hardware root-of-trust.
 
