@@ -56,6 +56,6 @@ func main() {
 		})
 	})
 
-	fmt.Println("🛡️  AEGIS-V GIN ENGINE RUNNING ON http://127.0.0.1:8080")
+	fmt.Println("AEGIS-V GIN ENGINE RUNNING ON http://127.0.0.1:8080")
 	r.Run(":8080")
 }
